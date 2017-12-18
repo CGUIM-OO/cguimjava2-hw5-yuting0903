@@ -67,7 +67,7 @@ public class Table {
 					System.out.print(allplayer[i].getName()+"'s Cards now:");
 					for(Card c : allplayer[i].getOneRoundCard()){
 						c.printCard();}
-					System.out.println(allplayer[i].getName()+", Pass hit!");
+					System.out.println("Pass hit!");
 					System.out.println(allplayer[i].getName()+"'s hit is over!");
 				}
 			}while(hit);
